@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-card {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: left;
+}
+
+.hero-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bio, .stats {
+    padding: 10px;
+}
+
+.bio p, .stats p {
+    margin: 5px 0;
+}

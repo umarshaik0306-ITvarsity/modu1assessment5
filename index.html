@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Superhero Profiles</h1>
+  <a href="profiles.html">Go to profiles page</a>
+    <div class="hero-container">
+        <div class="hero-card">
+            <img id="hero-img" src="images/avengers_01.jpg" alt="Thor">
+            <h2 id="hero-name">Thor</h2>
+            <div class="bio">
+                <p><strong>Full Name:</strong> <span id="hero-fullname">Thor Odinson</span></p>
+                <p><strong>Race:</strong> <span id="hero-race">Asgardian</span></p>
+                <p><strong>Alignment:</strong> <span id="hero-alignment">Good</span></p>
+            </div>
+            <div class="stats">
+                <p><strong>Strength:</strong> <span id="hero-strength">100%</span></p>
+                <p><strong>Speed:</strong> <span id="hero-speed">70%</span></p>
+                <p><strong>Durability:</strong> <span id="hero-durability">100%</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button onclick="showPreviousCard()">Previous</button>
+        <button onclick="showNextCard()">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
